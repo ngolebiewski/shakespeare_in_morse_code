@@ -51,18 +51,20 @@ def flash_morse_unit(RGB_color, morse_code):
     for symbol in morse_code:
         if symbol == "/": 
             sleep(MORSE_CODE_UNITS["space_words"])
-        
+            
         if symbol == ".": 
             sense.clear(RGB_color)
             sleep(MORSE_CODE_UNITS["."])
             sense.clear()
+            sleep(MORSE_CODE_UNITS['space_dot_dash'])
             
         if symbol == "-": 
             sense.clear(RGB_color)
             sleep(MORSE_CODE_UNITS["-"])
             sense.clear()
+            sleep(MORSE_CODE_UNITS['space_dot_dash'])
             
-        sleep(MORSE_CODE_UNITS['space_dot_dash'])
+    sleep(MORSE_CODE_UNITS['space_letters'])
     
 
 for lines in dialogue:
