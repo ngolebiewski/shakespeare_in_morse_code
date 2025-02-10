@@ -17,8 +17,12 @@ SENSEHAT_COLORS = {
     "PINK": (255, 105, 180) # Pink color for SenseHat (RGB tuple)
 }
 
+# Adjust TIME_UNIT as needed.
+# .13 is a Morse Code standard for human operators to send and read
+# Smaller unit = Faster / Larger unit = Slower
 TIME_UNIT = .13
 
+# Time in seconds for each Morse Code symbol or spacing.
 MORSE_CODE_UNITS = {
     ".": 1*TIME_UNIT,
     "-": 3*TIME_UNIT,
@@ -49,7 +53,7 @@ morse_code_dict = {
 
 def flash_morse_unit(RGB_color, morse_code):
     for symbol in morse_code:
-        if symbol == "/": 
+        if symbol == "/":
             sleep(MORSE_CODE_UNITS["space_words"])
             
         if symbol == ".": 
