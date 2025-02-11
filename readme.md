@@ -33,4 +33,4 @@
 - Perhaps: Have a skip forward function?
 - Perhaps: display the letter on the LED array while blinking? 
 
-![Portion of play, marked up for style](/images/romeo_parsing.jpg)
+![Script excerpt, marked up for style](/images/romeo_parsing.jpg)
