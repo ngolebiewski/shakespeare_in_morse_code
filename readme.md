@@ -23,6 +23,8 @@
         - `git fetch origin` -> Fetch the latest changes from the remote repository
         - `git reset --hard origin/main` -> Reset your local branch to match the remote branch (replace 'main' with your branch name if needed)
 
+![Demo of code with flashing sense hat](/images/version1_demo.gif)
+
 ## Version 2 - `2_romeo_n_juliet.py`
 
 - *TODO*

@@ -1,2 +1,4 @@
 .git
 .venv
+/util
+.DS_Store
