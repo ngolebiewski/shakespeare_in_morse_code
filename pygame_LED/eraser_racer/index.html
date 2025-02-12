@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LED Eraser Racer</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #status {
+            color: white;
+            font-family: Arial, sans-serif;
+            margin-bottom: 20px;
+        }
+        #canvas {
+            width: 480px;
+            height: 480px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="status">Loading game...</div>
+    <canvas id="canvas"></canvas>
+    
+    <script src="https://pygame-web.github.io/archives/0.7/pythons.js" defer></script>
+    <script type="module">
+        import { loadPyScript } from "https://pygame-web.github.io/archives/0.7/browserfs.mjs";
+        
+        window.addEventListener('load', function() {
+            console.log("Window loaded, initializing game...");
+            loadPyScript({
+                python: "3.11",
+                files: ["main.py"],
+                options: [],
+                onready: () => {
+                    console.log("Game ready!");
+                    document.getElementById('status').style.display = 'none';
+                },
+                onerror: (err) => {
+                    console.error("Game error:", err);
+                    document.getElementById('status').textContent = 'Error loading game: ' + err;
+                }
+            });
+        });
+    </script>
+</body>
+</html> -->

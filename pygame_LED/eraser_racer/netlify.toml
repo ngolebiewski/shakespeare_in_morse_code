@@ -1,0 +1,6 @@
+[build]
+publish = "build"
+command = """
+    pip install pygbag==0.7.2 &&
+    python -m pygbag --build --ume_block 0 --cdn --package main.py
+"""

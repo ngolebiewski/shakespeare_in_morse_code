@@ -25,6 +25,19 @@
 
 ![Demo of code with flashing sense hat](/images/version1_demo.gif)
 
+## INTERLUDE - `/pygame/LED`
+
+- Set up a simulated LED array with PyGame
+- Get distracted/inspired, depending on how you look at it, and create a game: PIXEL ERASER RACER
+- Go down a rabbit hole of trying to deploy on the web with Web Assembly (WASM) via PygBag. Many hours pass, not working.
+- Convert game to Phaser (Javascript) and have online and playable within a very short amount of time. 
+
+    ### PIXEL ERASER RACER (NOTE: PHOTO SENSITIVITY WARNING -- rapidly flashing lights)
+    - No Instructions on purpose, try and figure it out.
+    - Thinking about what tasks mean in our lives, and what happens when completed, and how we react to it.
+    - Play online at: https://pixel-eraser-racer.netlify.app/
+
+
 ## Version 2 - `2_romeo_n_juliet.py`
 
 - *TODO*
